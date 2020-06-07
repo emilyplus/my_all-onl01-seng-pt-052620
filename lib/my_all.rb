@@ -16,6 +16,4 @@ yield(collection[counter])
   else
     true
   end
-
-my_all?(collection)
 end
