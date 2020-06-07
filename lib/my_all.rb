@@ -19,4 +19,5 @@ yield(collection[counter])
     true
   end
 
+my_all?([1, 2, 3]) {|counter| counter < 2}
 end
