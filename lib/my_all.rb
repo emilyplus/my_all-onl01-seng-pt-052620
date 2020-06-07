@@ -1,13 +1,12 @@
 require 'pry'
-block_return_values = []
+
 
 def my_all?(collection)
   
   counter = 0
-  
+  block_return_values = []
   while counter < collection.length
-  
-  block_return_values <<
+    block_return_values <<
 yield(collection[counter])
     counter = counter + 1
   end
