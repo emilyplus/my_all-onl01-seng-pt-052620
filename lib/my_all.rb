@@ -6,7 +6,7 @@ def my_all?(collection)
   
   block_return_values = []
   
-  while counter < collection.legnth
+  while counter < collection.length
   
   bloack_return_values <<
 yield(collection[counter])
