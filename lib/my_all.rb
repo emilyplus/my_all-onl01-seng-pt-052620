@@ -13,7 +13,7 @@ yield(collection[counter])
     counter = counter + 1
   end
 
-  if block_returns_values.include?(false)
+  if block_return_values.include?(false)
     false
   else
     true
