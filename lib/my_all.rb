@@ -8,7 +8,7 @@ def my_all?(collection)
   
   while counter < collection.length
   
-  bloack_return_values <<
+  block_return_values <<
 yield(collection[counter])
     counter = counter + 1
   end
